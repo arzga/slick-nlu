@@ -4,12 +4,10 @@ Experiments with "lite NLU"
 
 ## Design principles
 
-- Focus on output keywords
-- Ignore "fluff" (things that are not important for output)
+- Focus on output keywords: minimal configuration
 - Exact match is always respected
-- Always return defined keywords
-- Make best attempt to guess keyword even if it's not in list.
-- Acknowledge context is app-specific (scoped out from lite NLU)
+- Make best effeort guess the type of keywords that are not on the keyword list
+- Acknowledge some intepretation is context specific, but scoped out from NLU side. Make it easy to implement context in app-side.
 
 ## Current PoC
 
