@@ -6,25 +6,29 @@ dictionaries["intent"] = """
 add_order: I'll have, I'd like, I'd like to have, I'd like to order, order, add, gimme, plus, extra, more, also
 """
 
-dictionaries["burger"] = """Big Mac
+dictionaries["burger"] = """
+Big Mac
 Hamburger
-Cheese burger
+Cheeseburger: Cheeseburger, cheese burger
 McFeast
-Quarterpounder
+Quarter Pounder
 """
 
-dictionaries["sides"] = """fries
+dictionaries["sides"] = """
+fries
 french fries
 side salad
 salad
 sweet potato fries
 """
 
-dictionaries["upgrade"] = """meal
+dictionaries["upgrade"] = """
+meal
 combo
 """
 
-dictionaries["drink"] = """Coke
+dictionaries["drink"] = """
+Coke
 cola
 Coca Cola
 Coca Cola zero
@@ -36,7 +40,8 @@ soda water
 bubble
 """
 
-dictionaries["amount"] = """one
+dictionaries["amount"] = """
+one
 two
 three
 four
@@ -48,19 +53,22 @@ nine
 ten
 """
 
-dictionaries["size"] = """small
+dictionaries["size"] = """
+small
 large
 regular
 """
 
-dictionaries["profanity"] = """fuck you
+dictionaries["profanity"] = """
+fuck you
 fucker
 fuck
 bitch
 son of a bitch
 """
 
-dictionaries["serving"] = """to go: to go, take away, outside, take with me
+dictionaries["serving"] = """
+to go: to go, take away, outside, take with me
 eat in: eat in, here, in restaurant, in the restaurant, inside
 """
   
