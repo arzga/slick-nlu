@@ -1,10 +1,11 @@
 # slick-nlu
 
-Experiments with "lite NLU"
+Experiments with "lite NLU": Will keyword-focused approach suffice for most applications?
 
 ## Design principles
 
-- Focus on output keywords: minimal configuration
+- Focus on output keywords
+- Reduce configuration: only specify what needs to be outputted
 - Exact match is always respected
 - Make best effeort guess the type of keywords that are not on the keyword list
 - Acknowledge some intepretation is context specific, but scoped out from NLU side. Make it easy to implement context in app-side.
