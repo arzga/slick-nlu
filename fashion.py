@@ -2,27 +2,10 @@ from SlickNLU import SlickNLU, interpret
 
 dictionaries = {}
 
-dictionaries["intent"] = """show,show
-find,show
-search,show
-browse,show
-display,show
-interested,show
-looking for,show
-i'd like,show
-do you have,show
-do you carry,show
-need,show
-want,show
-clear
-reset,clear
-restart,clear
-deselect,clear
-hello,hello
-hi, hello
-help, hello
-how are you,hello
-speechly,speechly
+dictionaries["intent"] = """hello, hi, help, how are you: hello
+show, find, search, browse, display, interested, looking for, i'd like, do you have, do you carry, need, want: show
+clear, reset, restart, deselect: clear
+speechly: speechly
 """
 
 dictionaries["brand"] = """adidas,1289

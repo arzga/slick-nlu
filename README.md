@@ -19,6 +19,7 @@ python3 burger.py
 
 ### Keyword extraction in pseudo-config language
 
+Main config:
 ```
 ...{$intent}(intent)...
 ...{$brand}(brand)...
@@ -28,7 +29,25 @@ python3 burger.py
 ...{$fiter}(fiter)...
 ```
 
-### Specificity rules
+Intent:
+```
+hello, hi, help, how are you: hello
+show, find, search, browse, display, interested, looking for, i'd like, do you have, do you carry, need, want: show
+clear, reset, restart, deselect: clear
+```
+
+Brand:
+```
+Arena,831
+Asics,694
+Better Bodies,20804
+Billabong,121
+Bjorn Borg,112
+Burton,1323
+...
+```
+
+### Specificity matching
 
 Specifity (X,Z)
 
@@ -68,7 +87,7 @@ show (intent_show)... (specificity 1,0,-3)
 ...popular (sort)...
 ```
 
-### Specificity rules
+### Specificity matching
 
 Specificity (X,Y,Z)
 
