@@ -17,7 +17,7 @@ python3 fashion.py
 python3 burger.py
 ```
 
-### Keyword extraction in pseudo-config language
+### Rules in pseudo-config language
 
 #### Main config (implicit from order of keyword dictionaries)
 ```
@@ -60,7 +60,7 @@ Specifity (X,Z)
 
 Improve keyword matching with additional context
 
-### Keyword extraction in pseudo-config language
+### Rules in pseudo-config language
 
 ```
 hello (intent_hello)...
