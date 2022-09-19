@@ -19,7 +19,7 @@ python3 burger.py
 
 ### Keyword extraction in pseudo-config language
 
-Main config:
+#### Main config (implicit from order of keyword dictionaries)
 ```
 ...{$intent}(intent)...
 ...{$brand}(brand)...
@@ -29,14 +29,14 @@ Main config:
 ...{$fiter}(fiter)...
 ```
 
-Intent:
+#### Intent
 ```
 hello, hi, help, how are you: hello
 show, find, search, browse, display, interested, looking for, i'd like, do you have, do you carry, need, want: show
 clear, reset, restart, deselect: clear
 ```
 
-Brand:
+#### Brand
 ```
 Arena,831
 Asics,694
