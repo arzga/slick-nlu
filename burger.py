@@ -2,17 +2,8 @@ from SlickNLU import SlickNLU, interpret
 
 dictionaries = {}
 
-dictionaries["add_order_intent"] = """I'll have
-I'd like
-I'd like to have
-I'd like to order
-order
-add
-gimme
-plus
-extra
-more
-also
+dictionaries["intent"] = """
+add_order: I'll have, I'd like, I'd like to have, I'd like to order, order, add, gimme, plus, extra, more, also
 """
 
 dictionaries["burger"] = """Big Mac
